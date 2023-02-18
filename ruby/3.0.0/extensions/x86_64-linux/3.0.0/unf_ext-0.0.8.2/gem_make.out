@@ -1,0 +1,16 @@
+current directory: /home/svenr/svenrademakers.github.io/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/svenr/svenrademakers.github.io/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230218-42392-dtdr23 sitelibdir\=./.gem.20230218-42392-dtdr23 clean
+
+current directory: /home/svenr/svenrademakers.github.io/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230218-42392-dtdr23 sitelibdir\=./.gem.20230218-42392-dtdr23
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/svenr/svenrademakers.github.io/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20230218-42392-dtdr23 sitelibdir\=./.gem.20230218-42392-dtdr23 install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20230218-42392-dtdr23
