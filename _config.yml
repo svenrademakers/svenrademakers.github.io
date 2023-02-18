@@ -40,7 +40,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - "ruby/3.0.0/gems/jekyll-4.3.2/lib/site_template"
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
