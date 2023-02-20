@@ -1,15 +1,21 @@
+<script defer src="{{site.baseurl}}/assets/js/brands.min.js"></script>
+<script defer src="{{site.baseurl}}/assets/js/solid.min.js"></script>
+<script defer src="{{site.baseurl}}/assets/js/fontawesome.min.js"></script>
 <section id="bio">
-  <section id="img-wrapper">
-    <img src="{{site.data.author.dp}}" alt="" />
-  </section>
-  <section id="bio-wrapper">
-    <div id="text-wrapper">{{site.data.author.description}}</div>
-    <div id="social-wrapper">
-      {% for i in site.data.author.contact %}
-      <a href="{{i.url}}" target="_blank">
-        <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
-      </a>
-      {%endfor%}
-    </div>
-  </section>
+    <section id="img-wrapper">
+        <img src="{{site.data.author.dp}}" alt="" />
+    </section>
+    <section id="bio-wrapper">
+        <div id="text-wrapper">{{site.data.author.description}}</div>
+        <div> <i class="fa-solid fa-user"></i>
+            <i class="fa-brands fa-github-square"></i>
+        </div>
+        <div id="social-wrapper">
+            {% for i in site.data.author.contact %}
+            <a href="{{i.url}}" target="_blank">
+                <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
+            </a>
+            {%endfor%}
+        </div>
+    </section>
 </section>
