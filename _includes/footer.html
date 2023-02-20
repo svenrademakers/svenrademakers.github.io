@@ -1,3 +1,10 @@
 <footer>
-  <p>&copy; 1947 - {{ 'now' | date: "%Y" }} | {{site.title}}</p>
+    <p>&copy; {{ 'now' | date: "%Y" }} | {{site.title}}</p>
+    <div id="social-wrapper">
+        {% for i in site.data.author.contact %}
+        <a href="{{i.url}}" target="_blank">
+            <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
+        </a>
+        {%endfor%}
+    </div>
 </footer>
