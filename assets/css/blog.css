@@ -35,7 +35,7 @@ header {
 }
 header .site-title {
   font-size: 4rem;
-  font-weight: bolder;
+ /* font-weight: bolder; */
   line-height: 110%;
   color: var(--white-1);
 }
@@ -54,7 +54,7 @@ main {
 }
 #img-wrapper img {
   border-radius: 50%;
-  max-width: 100px;
+  max-width: 150px;
 }
 #bio-wrapper {
   margin-left: 1rem;
@@ -68,16 +68,18 @@ main {
   border-bottom: 1px solid cyan;
 }
 #social-wrapper {
-  margin-top: 1rem;
+  float: right;
 }
-#social-wrapper img {
+#social-wrapper a {
+  display: inline-block;
   filter: invert() !important;
-  width: 25px;
-  height: 25px;
-  margin: 0 0 0.3rem 0;
+  margin: 0 1em 0.3rem 0;
   transition: all 0.2s ease-in-out;
+  color: var(--gray-4);
+  text-decoration: none;
 }
-#social-wrapper img:hover {
+
+#social-wrapper i:hover {
   transform: scale(1.2);
 }
 

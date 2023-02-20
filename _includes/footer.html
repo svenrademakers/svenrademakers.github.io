@@ -1,10 +1,10 @@
 <footer>
-    <p>&copy; {{ 'now' | date: "%Y" }} | {{site.title}}</p>
+    &copy; {{ 'now' | date: "%Y" }} | {{site.title}}
     <div id="social-wrapper">
         {% for i in site.data.author.contact %}
-        <span>
-            <i class="fa-solid fa-{{ i.title }}"></i>
-        </span>
+        <a href="{{i.url}}" target="_blank">
+            <i class="{{ i.title }}"></i>
+        </a>
         {%endfor%}
     </div>
 </footer>

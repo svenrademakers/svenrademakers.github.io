@@ -75,3 +75,7 @@ hr {
   border-right: none !important;
   margin-bottom: 1.75rem !important;
 }
+  a:link    { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover   { text-decoration: none; }
+  a:active  { text-decoration: none; } 

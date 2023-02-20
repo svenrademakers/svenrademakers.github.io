@@ -1,21 +1,19 @@
 name: Sven Rademakers 
 dp: assets/Sven.png
 description: "
-  <p>
-   Rust engineer passionate about distributed and embedded systems. 
+  Having done C++ for the majority of my career, i had the opportunity to
+  write Rust production code. Now i never want to go back! My aim is to make
+  a series of blog posts related to my experiences with Rust in the domain of
+  distributed and embedded systems. 
   </p>
-  <br/>
-  <p>
-    <b> Looking for a new job in the London, UK area </b>
-  </P>
 "
 email: sven.rademakers@gmail.com
 contact:
-  - title: linkedin
+  - title: "fa-brands fa-linkedin"
     url: https://www.linkedin.com/in/sxrademakers
-  - title: github
+  - title: "fa-brands fa-github"
     url: https://github.com/svenrademakers
-  - title: twitter
+  - title: "fa-brands fa-twitter"
     url: https://twitter.com/sxrademakers
-  - title: at
+  - title: "fa-solid fa-at"
     url: mailto:sven.rademakers@gmail.com

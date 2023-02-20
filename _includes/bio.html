@@ -3,24 +3,15 @@
         <img src="{{site.data.author.dp}}" alt="" />
     </section>
     <section id="bio-wrapper">
-        <div>
-            <div>
-                <i>Rust Programmer</i>
-            </div>
-            <div>
-                <i class="fa-solid fa-house">Cobham, Uk</i>
-            </div>
-            {% for i in site.data.author.contact %}
-            <div>
-                <a href="{{i.url}}" target="_blank">
-                    <i class="fa-solid fa-{{ i.title }}">@{{i.title}}</i>
-                </a>
-            </div>
-            {%endfor%}
-        </div>
+        <b style="font-weight: bold;">Rust engineer, nvim user, split keyboard
+            fanatic and sports head. </b>
         <div id="text-wrapper">{{site.data.author.description}}</div>
-        <div> <i class="fa-solid fa-user"></i>
-            <i class="fa-brands fa-github-square"></i>
+        <div id="social-wrapper" style="margin-right: 2em; margin-top: 1em;">
+            {% for i in site.data.author.contact %}
+            <a style="text-decoration: none;" href="{{i.url}}" target="_blank">
+                <i class="fa-xl {{ i.title }}"></i>
+            </a>
+            {%endfor%}
         </div>
     </section>
 </section>
