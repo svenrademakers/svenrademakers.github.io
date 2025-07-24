@@ -3,6 +3,9 @@
 icon: fas fa-info-circle
 order: 4
 ---
+Shipped multiple projects containing Rust, with over a decade of experience
+in various industries such as gaming, linux and embedded systems. Very curious by nature,
+always seeking to learn new things and I never back down from a challenge.
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+On this website i share experiences and learning's of my journey as a software
+developer.
